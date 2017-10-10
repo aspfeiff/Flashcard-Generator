@@ -1,0 +1,23 @@
+{
+  "name": "flashcard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspfeiff/Flashcard-Generator.git"
+  },
+  "author": "Andre Pfeiffer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aspfeiff/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/aspfeiff/Flashcard-Generator#readme",
+  "dependencies": {
+    "firebase": "^4.5.0"
+  },
+  "devDependencies": {}
+}
