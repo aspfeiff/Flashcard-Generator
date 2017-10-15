@@ -1,3 +1,4 @@
+var fs = require("fs");
 
 var ClozeCard = require("./ClozeCard.js");
 
@@ -6,7 +7,7 @@ var firebase = require("firebase");
 
 
  // Initialize Firebase
- 
+
  var config = {
  	apiKey: "AIzaSyC5xX6xFeFxCNQ9yF1n6HE5ADooBsHSve0",
  	authDomain: "flashcard-generator-d77f4.firebaseapp.com",
@@ -15,7 +16,7 @@ var firebase = require("firebase");
  	storageBucket: "",
  	messagingSenderId: "697659251089"
  };
- 
+
  firebase.initializeApp(config);
 
 
@@ -94,7 +95,7 @@ function ask() {
 
 		// adds new card in firebase
 
-		addNewCloze(fullText, cloze, partialText);
+		addNewCloze();
 
 		if (answers.askAgain) {
 
